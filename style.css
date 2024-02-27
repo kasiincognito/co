@@ -1,0 +1,99 @@
+nav{
+    display:flex;
+    height:70px;
+    background-color:purple;
+    justify-content:flex-start;
+    width:100%;
+    position:relative;
+    opacity:0.9;
+    background-color:rgb(150, 75, 255);
+}
+.logo{
+    position:absolute;
+    right:0;
+    height:70px;
+    right:0;
+}
+div{
+    position:relative;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+}
+.button {
+    height: 70px;
+    width:140px;
+    border-style:none;
+    transition: 0.3s;
+    color:rgb(150, 75, 255);
+}
+.button:hover {
+    background-color: rgb(150, 75, 255);
+    color:white;
+}
+body{
+    position:relative;
+    margin:0;
+    padding:0;
+    background-image:url("devs.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+p{
+    font-family:Arial;
+    font-size:20px;
+}
+.menu{
+    display:none;
+}
+.welcome{
+    top:0;
+    margin:20px;
+    height:300px;
+    width:90%;
+}
+h1{
+    font-family:Arial;
+    margin:0;
+}
+.first{
+    font-size:70px;
+    color:rgb(150, 75, 255);
+}
+a{
+    color:rgb(150, 75, 255);
+}
+b{
+    font-family:Arial;
+    font-size:20px;
+}
+.love {
+    color:red;
+}
+@media only screen and (max-width: 607px) {
+    .button{
+        display:none;
+    }
+    .menu{
+        position:absolute;
+        right:0;
+        display:block;
+        height:70px;
+        transition:0.2s;
+    }
+    .menu:hover {
+        background-color:rgb(132, 44, 255);
+    }
+    .logo{
+        right:20%;
+    }
+    .first{
+        font-size:40px;
+    }
+}
